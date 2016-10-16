@@ -1,0 +1,105 @@
+body {
+  font-size:16px;
+  color: #000000;
+  background-color: #FFFFFF;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #f6b319;
+  border-radius: 0;
+  border-top: 1px;
+  border-left: 1px;
+  border-right: 1px;
+  border-bottom: 1px;
+  border-style: solid;
+  border-color: #000000;
+  margin-bottom: 0;
+}
+.navbar-brand {
+  padding-top: auto;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'Oxygen', sans-serif;
+  color: #557c3e;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#nav-list {
+  margin-top: 0px;
+  margin-bottom: 0;
+}
+#nav-list a {
+  color: #000000;
+  text-align: center;
+  background: #FFFFFF;
+  margin-bottom: 0;
+  border-top: 0px;
+  border-left: 1px;
+  border-right: 1px;
+  border-bottom: 1px;
+  border-style: solid;
+  border-color: #000000;
+}
+#nav-list a:hover {
+  background: #951C49;
+  color: #FFFFFF;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+/** We need to add padding in body if we use navbar-fixed-top **/
+ body { padding-top: 50px; }
+
+.ourmenu > p {
+  position: relative;	
+  margin-top: 15px;	
+  margin-bottom: 15px;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  color: #D2691E;
+  font-size: 30px;
+}
+
+  #chicken {
+  	position: relative;	
+  	text-align: center;
+  	padding-top:30px;
+  	height:800px;
+  	color: #fff; 
+  	background-color: #1E88E5;
+  	margin-left: 50px;
+  	margin-right: 50px;
+    overflow: scroll;
+  }
+  #beef {
+  	text-align: center;
+  	padding-top:30px;
+  	height:800px;
+  	color: #fff; 
+  	background-color: #673ab7;
+  	margin-left: 50px;
+  	margin-right: 50px;
+    overflow: scroll;
+  }
+  #sushi {
+  	text-align: center;
+  	padding-top:30px;
+  	height:800px;
+  	color: #fff; 
+  	background-color: #ff9800;
+  	margin-left: 50px;
+  	margin-right: 50px;
+    overflow: scroll;
+  }
+
